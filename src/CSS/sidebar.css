@@ -1,0 +1,37 @@
+.sidebar-container {
+    padding: 30px;
+  }
+  
+  .gill-sans {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  .imgsize {
+    max-width: 20px;
+    max-height: 20px;
+  }
+  
+  .notif-nav {
+    a {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 14px;
+        padding-top: 20px;
+    }
+  }
+  
+  .button-trend {
+    margin-top: 50px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    color: orange;
+    background-color: white;
+    border-color: orange
+  }
+  
