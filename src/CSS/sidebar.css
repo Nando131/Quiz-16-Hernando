@@ -1,37 +1,227 @@
-.sidebar-container {
-    padding: 30px;
-  }
-  
-  .gill-sans {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  }
-  
-  .bold {
-    font-weight: bold;
-  }
-  
-  .imgsize {
-    max-width: 20px;
-    max-height: 20px;
-  }
-  
-  .notif-nav {
-    a {
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        font-size: 14px;
-        padding-top: 20px;
-    }
-  }
-  
-  .button-trend {
-    margin-top: 50px;
-    width: 100px;
-    height: 30px;
-    border-radius: 10px;
-    color: orange;
-    background-color: white;
-    border-color: orange
-  }
-  
+.app {
+  display: flex;
+  font-family: Arial, sans-serif;
+}
+
+
+.allsidebar{
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  font-weight: bold;
+}
+.sidebar {
+  width: 200px;
+  background-color:white;
+  padding: 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #e67e22;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  margin: 15px 0;
+}
+
+.trending-button {
+  background-color: white;
+  width: 100%; 
+  border-top: 5px solid black;
+  border: 2px solid orange;
+  color: orange;
+  padding: 10px;
+  border-radius:20px;
+  cursor: pointer;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.post-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.post-section input {
+  flex-grow: 1;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.share-button {
+  background-color: #e67e22;
+  color: white;
+  border: none;
+  padding: 10px;
+}
+
+.feed {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.post {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.engagement{
+ display: flex;
+justify-content: space-around;
+
+}
+
+.follow-suggestions {
+  width: 200px;
+  background-color:lightgoldenrodyellow;
+  height: 200px;
+  border-radius: 10px;
+  padding: 20px;
+}
+.K{
+  height: 50px;
+}
+
+.gambarK{
+  display: flex;
+  background-color: white;
+  gap:15px;
+  list-style-type: none;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+.gambarKK{
+  height: 30px;
+}
+.rageyo{
+color: orange
+}
+
+.plus{
+  display: flex;
+  margin-right: 100px;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.jempol{
+  height: 15px;
+  margin-top: 2px;
+}
+
+.zero{
+display: flex;
+gap:10px;
+}
+
+.chat{
+  height: 20px;
+  margin-top: 2px;
+}
+
+.ten{
+  display: flex;
+  gap:10px;
+}
+
+.secondten{
+  display: flex;
+  gap:10px;
+}
+
+.share{
+  height: 23px;
+ ;
+}
+.Home{
+  color:#e67e22
+}
+
+.notif{
+  height: 20px;
+  margin-top: 15px;
+}
+
+.Navnotif{
+  display: flex;
+  gap:10px;
+}
+
+.Navhouse{
+  display: flex;
+  gap:10px;
+}
+ .house{
+  height: 20px;
+  margin-top: 15px;
+ }
+
+ .NavMessages{
+  display: flex;
+  gap:10px;
+ }
+.messages{
+  height: 25px;
+  margin-top: 15px;
+}
+
+.gambart{
+  height: 30px;
+}
+
+.gambarone{
+  display: flex;
+  background-color: white;
+  gap:15px;
+  list-style-type: none;
+  padding: 10px;
+  border-radius: 7px;
+}
+.NavProfile{
+  display: flex;
+  gap:10px;
+}
+
+.profile{
+  height: 25px;
+  margin-top: 12px;
+}
+
+.tereke{
+  color:#e67e22
+}
+
+.navseemore{
+  display: flex;
+  justify-content: center;
+}
+
+.seemore{
+  color:grey;
+  margin-left: 70px;
+
+}
+
+.allnav{
+  display: flex;
+  flex-direction:row
+}
+
+.SOCIO{
+  color:#e67e22;
+  font-size: 20px;
+}
